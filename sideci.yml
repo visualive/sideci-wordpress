@@ -1,0 +1,14 @@
+linter:
+  code_sniffer:
+    options:
+      standard: test/ruleset-phpcs.xml
+      extensions: php
+  phpmd:
+    options:
+      rule: test/ruleset-phpmd.xml
+  jshint:
+    options:
+      config: test/.jshintrc
+  eslint:
+    options:
+      config: test/.eslintrc
